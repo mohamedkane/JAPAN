@@ -1,0 +1,92 @@
+img {
+            width:80%;
+            border:10px ridge blue;
+            }
+            
+ h1{
+    color: ghostwhite;
+    text-align: center;
+    font-family: 'Limelight', cursive;
+     padding:30px;
+  }
+  
+  li{ 
+      color: cyan;
+      font-family: 'Graduate', cursive;
+      margin-bottom: 10px;
+  }
+  
+  h2{
+      font-family: 'Federant', cursive;
+      color: DarkTurquoise;
+  }
+  
+  a:visited {
+    text-decoration: none;
+     color:lime;
+
+ }
+
+
+
+a:active {
+    text-decoration: underline;
+    color:orange;
+}
+
+a:hover {
+    color:GhostWhite;
+}
+
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color:green;
+    
+}
+
+
+#header {
+    color: lime;
+    background: linear-gradient(to bottom, #ff5050 0%, #0066ff 100%);  
+}
+
+#illuminati {
+    background: linear-gradient(to bottom, white 0%, cyan 100%);  
+
+}
+
+#header, #illuminati, #lit, #alp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#lit{
+    color:blue;
+    background: linear-gradient(to bottom, orangered 0%, yellow 100%);  
+}
+ 
+#alp{
+    color:blue;
+    background: linear-gradient(to bottom, firebrick 0%, orangered 100%);  
+}
+
+
+#pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+    color:blue;
+    background: linear-gradient(to bottom, steelblue 0%, ghostwhite 100%); 
+}
+#pics  img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(180deg);
+}
